@@ -1,0 +1,27 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+venv/
+capstone/Lib/
+capstone/Include/
+capstone/Scripts/
+
+# Jupyter Notebook related
+.ipynb_checkpoints/
+
+# TensorFlow/OpenCV/XGBoost related (likely large)
+tensorflow/
+cv2/
+xgboost/
+*.dll
+*.pyd
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+
+# Word temporary files
+~$*
